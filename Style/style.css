@@ -140,7 +140,6 @@ select {
   nav,
   .nav-section {
     flex-direction: column;
-    margin-left: 20px;
   }
 
   .nav-section {
