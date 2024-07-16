@@ -68,6 +68,10 @@ nav {
   cursor: pointer;
 }
 
+.hum-burger {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -137,13 +141,22 @@ select {
 
 /* Responsive for Mobile Devices */
 @media screen and (max-width: 576px) {
-  nav,
-  .nav-section {
-    flex-direction: column;
+  nav > .logo > h3 {
+    font-size: 21.54px;
+    font-weight: 800;
+    padding-top: 10px;
   }
 
   .nav-section {
-    margin-top: 2rem;
+    display: none;
+  }
+
+  .hum-burger {
+    display: block;
+    width: 16.5px;
+    height: 10.5px;
+    padding-top: 10px;
+    
   }
 
   .banner {
