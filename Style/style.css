@@ -199,6 +199,11 @@ select {
 }
 /* Responsive for Mobile Devices */
 @media screen and (max-width: 576px) {
+
+*{
+    max-width: 375px;
+    margin: 0 auto;
+}
   nav > .logo > h3 {
     font-size: 21.54px;
     font-weight: 800;
@@ -253,19 +258,20 @@ select {
     flex-direction: column;
     width: 287px;
     height: 288px;
-    margin: 0 auto;
+    
   }
 
   .menu > input,
   select {
     width: 255px;
     height: 52px;
+    margin: 10px;
   }
 
   .menu > button {
     width: 255px;
     height: 52px;
-  }
+}
 
   .popular {
     margin-top: 20px;
