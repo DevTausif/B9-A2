@@ -98,8 +98,8 @@ nav {
 @media screen and (max-width: 576px) {
 
 *{
-    max-width: 375px;
-    margin: 0;
+    max-width: 375px; 
+    margin: 0;  
 }
   nav,
   .nav-section {
@@ -122,6 +122,7 @@ nav {
       url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-position: center;
     margin-bottom: 24px;
+    margin-left: 1.75rem;
   }
 
   .explore {
